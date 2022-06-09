@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('index', 'App\Http\Controllers\MyController@Index');
+Route::get('applicant', 'App\Http\Controllers\ApplicantController@index');
+Route::post('applicant', 'App\Http\Controllers\ApplicantController@store');
