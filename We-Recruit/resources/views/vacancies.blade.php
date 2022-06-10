@@ -18,7 +18,7 @@
                                 <p>Fulltime | Johannesburg</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>
@@ -34,7 +34,7 @@
                                 <p>Part time | Geminston</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>
@@ -50,7 +50,7 @@
                                 <p>Contract | Sandton</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>
@@ -66,7 +66,7 @@
                                 <p>Fulltime | Johannesburg</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>
@@ -82,7 +82,7 @@
                                 <p>Fulltime | Johannesburg</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>
@@ -98,7 +98,7 @@
                                 <p>Fulltime | Cape Town</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>
@@ -114,7 +114,7 @@
                                 <p>Contract | Johannesburg</p>
                             </div>
                             <div class="apply">
-                                <button>Apply</button>
+                                <button><a href="{{ url('applicant') }}">Apply</a></button>
                             </div>
                         </a>
                     </div>

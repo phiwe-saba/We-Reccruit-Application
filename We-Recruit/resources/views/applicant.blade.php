@@ -1,4 +1,5 @@
-@extends('layouts.layout')
+
+@extends('layouts.app-layout')
 
 @section('content')
     <form action="applicant" method="POST">
