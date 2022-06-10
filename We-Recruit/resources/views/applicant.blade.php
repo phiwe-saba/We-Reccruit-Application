@@ -2,6 +2,7 @@
 
 @section('content')
     <form action="applicant" method="POST">
+        @csrf
         <div class="form-group pt-3">
             <label for="first_name">First name:</label>
             <input type="text" name="first_name" class="form-control">
@@ -26,7 +27,6 @@
             <label for="cell_number">Cell number:</label>
             <input type="text" name="cell_number" class="form-control">
         </div>
-        @csrf
         <!---<div class="form-group pt-3">
             <label for="gender">Gender:</label>
             <select name="gender" id="gender" class="form-control">

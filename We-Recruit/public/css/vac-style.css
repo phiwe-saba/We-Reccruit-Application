@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    box-sizing:border-box;
+    width:100%;
+}
+
+body{
+    font-size:20px;
+    font-family:Inter, sans-serif;
+    background-color: whitesmoke;
+    margin:0px;
+}
+
+/*Navigation bar*/
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.header-container{
+    max-width:1120px;
+    margin:auto;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.align-items-center{
+    align-items:center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.header{
+    padding: 12px 0;
+}
+
+.header .logo,
+.header .nav{
+    padding:0 15px;
+}
+
+.header .logo a{
+    color: #ffffff;
+    font-size:25px;
+}
+
+.header .nav ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.header .nav ul li a{
+	display: block;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	padding: 10px 0;
+	transition: all 0.5s ease;
+}
+
+.nav-toggler{
+	height: 34px;
+	width: 44px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	cursor: pointer;
+	border:none;
+	display: none;
+	margin-right: 15px;
+}
+.nav-toggler:focus{
+	outline: none;
+	box-shadow: 0 0 15px rgba(255,255,255,0.5);
+}
+.nav-toggler span{
+    height: 2px;
+    width: 20px;
+    background-color: var(--color-1);
+    display: block;
+    margin:auto;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.nav-toggler.active span{
+	background-color: transparent;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+	content: '';
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color-1);
+	transition: all 0.3s ease;
+}
+.nav-toggler span::before{
+	transform: translateY(-6px);
+}
+.nav-toggler.active span::before{
+	transform: rotate(45deg);
+}
+.nav-toggler span::after{
+	transform: translateY(6px);
+}
+.nav-toggler.active span::after{
+	transform: rotate(135deg);
+}
+
+/*Showcase*/
+.vac-showcase{
+    min-height:300px;
+    /*background:url(../images/recruit.jpg) no-repeat 0 -50px;*/
+    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+    opacity: 0.8;
+    color:rgb(255, 249, 249);
+}
+
+.vac-showcase h2{
+    padding-top:90px;
+    text-align:center;
+    font-size: 55px;
+}
+
+.vac-showcase p{
+    padding-top:10px;
+    text-align:center;
+    font-size:25px;
+}
+
+.vac-search{
+    padding-top:20px;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+/**Search bar*/
+.search-bar{
+    min-height:250px;
+    background-color: rgb(42, 37, 61);
+    padding:100px;
+}
+.content-bar{
+    text-align:center;
+}
+
+input, select, button{
+    border-radius: 20px;
+    padding:10px 35px;
+    margin:25px;
+    font-size:18px;
+    color:grey;
+}
+.content-bar button{
+    background-color: rgb(66, 125, 214);
+    border:1px;
+    color:white;
+}
+
+.content-bar button:hover{
+    background-color:gray;
+}
+
+/**Boxes*/
+.boxes {
+    margin-top:20px;
+}
+ 
+.boxes .box p{
+    color:rgb(77, 72, 72);
+}
+   
+.boxes .box{
+    margin:15px;
+    padding:20px;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 8px;
+}
+
+.boxes .box .title{
+    font-size: 18px;
+    font-style: bold;
+}
+
+.boxes .box .subtitle{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.boxes .box .location{
+    font-size: 12px;
+}
+
+/**Apply button*/
+.apply button{
+    background-color: rgb(66, 125, 214);
+    border:1px;
+    color:white;
+    padding:10px 25px;
+    margin:14px 10px 0px 1px;
+    font-size: 12px;
+}
+
+.apply button:hover{
+    background-color:gray;
+}
+
+
+.signup{
+    text-align:center;
+    padding:20px;
+    margin:20px 20px;
+}
+
+.signup button{
+    padding: 15px 35px;
+    font-size:15px;
+    background-color: rgb(66, 125, 214);
+    border:1px;
+    border-radius: 20px;;
+}
+
+.signup button:hover{
+    background-color:gray;
+}
+
+.signup button a{
+    color:white;
+    font-size:15px;
+}
+
+.content{
+    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+}
+
+
+
+/*Page footer*/
+footer p{ 
+    text-align: center;
+    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+    padding:35px;
+    font-size: 15px;
+    margin-top:15px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+@media(max-width:991px){
+    .nav-toggler{
+        display: block;
+    }
+    .header .nav {
+        width: 100%;
+        padding:0;
+        max-height: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    .header .nav.open{
+        visibility: visible;
+    }
+    .header .nav ul {
+        padding:12px 15px 0;
+        margin-top: 12px;
+        border-top:1px solid rgba(255,255,255,0.2);
+    }
+    .header .nav ul li {
+        display: block;
+        margin:0;
+    }
+ }
+ 
