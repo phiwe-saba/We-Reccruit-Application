@@ -11,11 +11,11 @@ class Applicant extends Model
     protected $fillable = [
         'first_name',
         'last_name',
-        'id_number',
         'email',
         'cell_number'
     ];
 
+    public $timestamps = false;
     //protected $hidden = [
        // 'date_applied',
        // 'status'

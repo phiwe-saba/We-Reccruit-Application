@@ -1,6 +1,15 @@
-body{
-    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
+
+body{
+    font-family:Inter, sans-serif;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
 /*Navigation bar*/
 ul{
     list-style:none;
@@ -29,7 +38,7 @@ a{
 }
 
 .header{
-    /*background-color: #2f3240;rgb(66, 125, 214);*/
+    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
     padding: 12px 0;
 }
 
@@ -110,7 +119,34 @@ a{
 	transform: rotate(135deg);
 }
 
+/*
+.container{
+    border-radius: 10px;
+}
 
-form{
-    background-color:whitesmoke;
+.body-content {
+    padding:10px 35px;
+}
+
+button{
+    border-radius:10px;
+    padding:5px 15px;
+    margin:10px;
+    font-size:15px;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+form .form-group label{
+	text-align: center;
+	padding:100px 35px;
+	margin:10px;
+    font-size:20px;
+}
+
+form .form-group input{
+	border-radius:1px;
+    margin: 10px;
 }

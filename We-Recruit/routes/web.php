@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('applicant', 'App\Http\Controllers\ApplicantController@index');
 Route::post('applicant', 'App\Http\Controllers\ApplicantController@store');
 Route::get('vacancies', 'App\Http\Controllers\VacancyController@index');
+Route::get('job', 'App\Http\Controllers\JobController@list');
+Route::get('job', 'App\Http\Controllers\JobController@store');
