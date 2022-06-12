@@ -8,12 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Applicant extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        'first_name',
-        'last_name',
-        'email',
-        'cell_number'
-    ];
+    protected $guarded = [];
 
     public $timestamps = false;
     //protected $hidden = [

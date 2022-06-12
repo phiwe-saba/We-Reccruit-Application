@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-    <form action="jobs" method="POST">
+    <form action="job" method="POST">
         @csrf
         <div class="form-group">
             <label for="title">Title:</label><br>
@@ -40,6 +40,8 @@
                 <option value="">Western Cape</option>
             </select>
         </div>
+
+        <input type="hidden" value="{{csrf_token()}}" name="_token" id="token">
 
         <button type="submit" class="btn btn-primary">Apply</button>
     </form>
