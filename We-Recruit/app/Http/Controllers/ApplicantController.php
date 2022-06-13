@@ -15,7 +15,6 @@ class ApplicantController extends Controller
         $data = request()->validate([
             'first_name' => 'required',
             'last_name' => 'required',
-            'id_number' => 'required',
             'email' => 'required|email',
             'cell_number' => 'required'
         ]);
