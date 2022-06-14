@@ -24,7 +24,7 @@
                             <h1>Land your next job with us!</h1>
                             <div class="showcase">
                                 <div class="content">
-                                    <p>Create | Uplaod | Apply</p>
+                                    <p>Create | Upload | Apply</p>
                                 </div>
                             </div>
                         </div>

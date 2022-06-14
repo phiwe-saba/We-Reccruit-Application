@@ -14,10 +14,10 @@
                 <input type="text" name="last_name" id="last_name">
             </div>
             
-            <!--<div class="form-group">
+            <div class="form-group">
                 <label for="id_number">Identity number:</label><br>
                 <input type="text" name="id_number" id="id_number">
-            </div>-->
+            </div>
             
             <div class="form-group">
                 <label for="email">Email address:</label><br>
@@ -29,7 +29,7 @@
                 <input type="text" name="cell_number" id="cell_number">
             </div>
 
-            <!--<div class="form-group">
+            <div class="form-group">
                 <label for="gender">Gender:</label><br>
                 <select name="gender" id="gender">
                     <option value="" disabled>Select gender</option>
@@ -41,12 +41,13 @@
         
             <div class="form-group">
                 <label for="ethnicity">Ethnicity:</label><br>
-                <select name="ethnicity" id="ethnicity" class="form-control">
-                    <option value="" disabled>Select ethnicity</option>
-                    <option value="1">African</option>
-                    <option value="0">Coloured</option>
-                    <option value="1">White</option>
-                </select>
+                <select name="civil_status">
+                    <option value="" disabled></option>
+                    <option value="African">African</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Coloured">Coloured</option>
+                    <option value="White">White</option>
+                 </select>
             </div>
         
             <div class="form-group">
@@ -56,7 +57,7 @@
         
             <input type="hidden" name="date_applied">
         
-            <input type="hidden" name="status" value="Applied">-->
+            <input type="hidden" name="status" value="Applied">
 
             <button type="submit" class="btn btn-primary">Apply</button>
         </form>

@@ -22,3 +22,7 @@ Route::post('applicant', 'App\Http\Controllers\ApplicantController@store');
 Route::get('vacancies', 'App\Http\Controllers\VacancyController@index');
 Route::get('job', 'App\Http\Controllers\JobController@list');
 Route::post('job', 'App\Http\Controllers\JobController@store');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
