@@ -4,6 +4,7 @@
     <div class="container">
         <form action="applicant" method="POST">
             @csrf
+            {{ Form::hidden('status', 'Applied') }}
             <div class=form-group>
                 <label for="first_name">First name:</label><br>
                 <input type="text" name="first_name" id="first_name">
@@ -33,7 +34,7 @@
                 <label for="gender">Gender:</label><br>
                 <select name="gender" id="gender">
                     <option value="" disabled>Select gender</option>
-                    <option value="1">Female</option>
+                    <option value="1" >Female</option>
                     <option value="0">Male</option>
                     <option value="">Other</option>
                 </select>
@@ -43,10 +44,10 @@
                 <label for="ethnicity">Ethnicity:</label><br>
                 <select name="civil_status">
                     <option value="" disabled></option>
-                    <option value="African">African</option>
-                    <option value="Indian">Indian</option>
-                    <option value="Coloured">Coloured</option>
-                    <option value="White">White</option>
+                    <option value="African" {{ 'selected' }}>African</option>
+                    <option value="Indian" {{ 'selected' }}>Indian</option>
+                    <option value="Coloured" {{ 'selected' }}>Coloured</option>
+                    <option value="White" {{ 'selected' }}>White</option>
                  </select>
             </div>
         

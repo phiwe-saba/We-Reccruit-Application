@@ -22,7 +22,7 @@
                     <li><a href="{{ url('vacancies') }}">Vacancies</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><a href="{{ url('job') }}">Job</a></li>
+                    <li><a href="{{ url('login') }}">Login</a></li>
                 </ul>
             </nav>
         </div>

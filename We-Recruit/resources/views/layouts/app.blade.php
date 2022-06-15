@@ -33,7 +33,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-
+                        <li><a href="{{ url ('/') }}" class="active">Home</a></li>
+                        <li><a href="{{ url('vacancies') }}">Vacancies</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="{{ url('login') }}">Login</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
